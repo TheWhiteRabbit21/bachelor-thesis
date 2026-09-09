@@ -21,18 +21,29 @@
 
 #let godina = [#datetime.today().year()]
 
-#let kljucne_reci = "Шаблон, завршни рад, упутство"
+#let kljucne_reci = "Управљање пројектима, развој видео игара, агилне методологије, скрамбан"
 #let apstrakt = [
-     Овај документ представља упутство за писање завршних радова на Факултету
-     техничких наука Универзитета у Новом Саду. У исто време је и шаблон за Typst.
+     У раду је анализиран процес управљања пројектом развоја видео игре
+     „Fragments of the Void“, реализованим у оквиру програма „Playing
+     Narratives“. Приказан је постојећи управљачки процес заснован на
+     поједностављеној примени скрам методологије и идентификована његова
+     ограничења: обједињавање више улога, изостанак метрика напретка и
+     реактивно управљање ризицима. Предложен је унапређени скрамбан модел, који
+     уводи канбан таблу са ограничењем броја активних задатака, метрике протока
+     рада, контролисани улаз захтева и регистар ризика.
 ]
 
 // На енглеском
-#let kljucne_reci_eng = "Template, thesis, tutorial"
+#let kljucne_reci_eng = "Project management, video game development, agile methodologies, Scrumban"
 #let apstrakt_eng = [
-     This document provides guidelines for writing final theses at the Faculty
-     of Technical Sciences, University of Novi Sad. At the same time, it serves
-     as a Typst template.
+     This thesis analyses the project management process behind the development
+     of the video game “Fragments of the Void”, carried out within the “Playing
+     Narratives” programme. It presents the existing management process based on
+     a simplified application of Scrum and identifies its limitations: the
+     concentration of several roles, the absence of progress metrics and
+     reactive risk management. An improved Scrumban model is proposed,
+     introducing a Kanban board with work-in-progress limits, workflow metrics,
+     a controlled requirement intake and a risk register.
 ]
 
 // TODO: Текст задатка добијате од ментора. Заменити доле #lorem(100) са текстом задатка.
