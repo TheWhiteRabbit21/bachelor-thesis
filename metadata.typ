@@ -57,7 +57,7 @@
 ]
 
 // TODO: Датум одбране и чланове комисије добијате од ментора
-#let datum_odbrane = "23.09.2026"
+#let datum_odbrane = "23.09.2026."
 #let komisija_predsednik = "Милан Видаковић"
 #let komisija_predsednik_zvanje = "редовни професор"
 #let komisija_clan = "Игор Дејановић"
